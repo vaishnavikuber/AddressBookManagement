@@ -291,7 +291,7 @@ namespace UserDataApplication
 
         public static void ReadFromCsvFile()
         {
-            string filePath = @"C:\Users\vaish\source\repos\UserDataApplication\UserDataApplication\Contacts.txt";
+            string filePath = @"C:\Users\vaish\source\repos\UserDataApplication\UserDataApplication\Contacts.csv";
             if (File.Exists(filePath))
             {
                 using (var reader = new StreamReader(filePath))
